@@ -1,0 +1,64 @@
+.main-wrapper{
+    background-color: white;
+  
+  
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+p,h6{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;    
+}
+.numberCircle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid black;
+    color: black(129, 124, 124);
+    font-weight:bold;
+}
+
+table{
+    width: 100%;
+}
+.ImageTable{
+    width: 120px;
+}
+th,td{
+    padding: 8px;
+    vertical-align: middle;
+    border: none;
+}
+.card{
+    flex-direction: row;
+    align-items: center;
+    border: 0;
+    padding: 0;
+}
+.card .card-body p{
+    margin-bottom: 0.5rem;
+}
+.card .card-body p:last-child{
+    margin-bottom: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.table-content{
+    position: relative;
+}
+.table-content .badge{
+    position: absolute;
+    right: -50px;
+    top: -15px;
+    padding: 12px 24px;
+    color: white;
+    background-color: red;
+    transform: rotate(45deg);
+}

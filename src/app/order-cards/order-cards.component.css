@@ -1,0 +1,44 @@
+.form-group.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.card label img{
+    width: 60px;
+    margin:0  15px;
+}
+.card label .card-body{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card label .card-body h5{
+    margin-bottom: 0;
+}
+.card label .card-body p{
+    color: #666666;
+    margin-bottom: 0;
+}
+.price{
+    white-space: nowrap;
+}
+h5,p{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    font-weight: bold;
+}
